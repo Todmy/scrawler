@@ -1,0 +1,33 @@
+{
+  "name": "scrawler",
+  "version": "0.0.1",
+  "description": "App for web crawling",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Todmy/scrawler.git"
+  },
+  "author": "Todmy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Todmy/scrawler/issues"
+  },
+  "homepage": "https://github.com/Todmy/scrawler#readme",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "ramda": "latest",
+    "cheerio": "latest"
+  },
+  "devDependencies": {
+    "Mocha": "latest",
+    "Chai": "latest",
+    "eslint": "latest",
+    "nodemon": "latest"
+  },
+  "scripts": {
+    "build": "",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
