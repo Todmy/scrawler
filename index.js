@@ -1,13 +1,11 @@
 var express = require('express');
-var fs = require('fs');
-var request = require('request');
-var cheerio = require('cheerio');
+
+var routes = require('./routes');
 
 var app = express();
+var url = 'http://olx.ua/kiev/';
 
-app.get('/', function(req, res){
-  //
-});
+routes(app, url);
 
 app.listen('3000');
 console.log('Listening port 3000');
